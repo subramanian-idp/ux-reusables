@@ -1,5 +1,3 @@
-@import url(variables.css);
-
 html {
   /* This defines what 1rem is */
   font-size: 62.5%; /* //1rem = 10px; 10px/16 = 62.5%; */
