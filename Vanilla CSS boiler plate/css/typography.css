@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 html {
   /* This defines what 1rem is */
   font-size: 62.5%; /* //1rem = 10px; 10px/16 = 62.5%; */
@@ -36,4 +38,17 @@ p {
 }
 .para {
   font: 1.6rem;
+}
+
+.color-primary{
+  color: var(--primary);
+}
+.color-secondary{
+  color: var(--secondary);
+}
+.color-white{
+  color: var(--white);
+}
+.color-black{
+  color: var(--black);
 }
