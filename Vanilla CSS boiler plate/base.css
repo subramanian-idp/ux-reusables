@@ -1,0 +1,18 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/* css reset */
+
+body {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--white);
+}
